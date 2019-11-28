@@ -298,6 +298,7 @@
         <i class="fa fa-arrow-up"></i>
     </a>
 </body>
+<script defer > window.onload = function(){ setTimeout(function(){var chatJsElement = document.createElement("script"); chatJsElement.src = "https://app.ohchat.net/clients/43770/code.php"; chatJsElement.setAttribute("defer", "defer"); document.getElementsByTagName("body")[0].appendChild(chatJsElement);}, 300) }; </script>
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="slick/slick.min.js"></script>
 <script src="script.js"></script>

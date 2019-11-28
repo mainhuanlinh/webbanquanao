@@ -27,7 +27,7 @@
 	if($txtpass && $txtuser)
 	{	include("../configsever.php");
 		
-		mysqli_select_db($conn,"ban_hang");
+		mysqli_select_db($conn,"db_doan");
 		$sqllogin="SELECT * FROM `tb_user` WHERE username='$txtuser' and userpass='$txtpass' ";
 	
 		if(mysqli_num_rows(mysqli_query($conn,$sqllogin))==1)

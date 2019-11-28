@@ -100,7 +100,7 @@
                         if (mysqli_num_rows($result) > 0)
                         {
                             while ($row = mysqli_fetch_assoc($result)) 
-                            {	
+                            {   
                                 
                                 $id=$row['id'];
                                 $name=$row['ten'];
@@ -119,7 +119,7 @@
                                 echo "   <div class='social'> <a href='https://www.facebook.com/Linhnhi.nhongnheo/about?lst=100007129333094%3A100007129333094%3A1573740601/' class='social-icon facebook animate'><span class='fa fa-facebook'></span></a> <a href='https://twitter.com/thinphm34098405' class='social-icon twitter animate'><span class='fa fa-twitter'></span></a> <br> <br>";
                                 echo "<a href='order-by.php?action=add&chonhang=$id' class=''><img src='img/icon.png'/><span>Chọn Đặt Hàng </span></a>";
                                 echo "<a href='session.php?page=products&action=add&themgiohang=$id'  ><img src='img/icon.png'/><span>Thêm Giỏ Hàng</span></button></a>";
-                                 echo "<a href='session.php?page=products&action=add&themgiohang=$id'  ><img src='img/icon.png'/><span>Thông tin <br> chi tiết</span></button></a>";
+                                 echo "<a href='blog-des.php?page=products&action=add&id=$id'  ><img src='img/icon.png'/><span>Thông tin <br> chi tiết</span></button></a>";
 
 
                                 echo "  </div> ";
@@ -264,11 +264,13 @@
             <i class="fa fa-arrow-up"></i>
         </a>
 </body>
-	<script src="js/jquery-3.3.1.min.js"></script>
-	<script src="slick/slick.min.js"></script>
-	<script src="script.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+<script defer > window.onload = function(){ setTimeout(function(){var chatJsElement = document.createElement("script"); chatJsElement.src = "https://app.ohchat.net/clients/43770/code.php"; chatJsElement.setAttribute("defer", "defer"); document.getElementsByTagName("body")[0].appendChild(chatJsElement);}, 300) }; </script>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="script.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-1.11.1.min.js"></script>
      <script type="text/javascript" src="http://demo.iwebs.vn/api/js/noel.js"></script>
     <script type="text/javascript" src="js/noel.js"></script> 
-	</html>
+    </html>

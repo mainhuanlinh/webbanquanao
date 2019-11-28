@@ -122,8 +122,10 @@
           if (mysqli_num_rows($query_s) > 0)
           { 
             $data=mysqli_fetch_assoc($query_s);
-              {
-                echo " <img class='card-img-top' src='$data[hinhanh]' alt=''></a>";
+              { echo "<div class='text-center'>";
+                echo " <img class='card-fuild text-center' src='$data[hinhanh]' alt=''></a>";
+                echo "</div>";
+              
                 echo "<h5 class='tl-new'>$data[ten] </a></h5>";
                 echo "<p class='card-text'>$data[noidung] [...]</p>";
                
@@ -148,48 +150,66 @@
         </div>
     </div>
 
-    <!-- post liên quan -->
-    <div class="container ">
-        <h3>Bài viết liên quan</h3>
+  <div class="container ">
+        <h3>MỘT SỐ SẢN PHẨM TƯƠNG TỰ</h3>
         <span>------</span>
         <div class="col-xs-12">
             <div class="slider-related row">
                 <div class="item-slider-related">
-                    <a href=""><img src="img/img10.jpg" alt=""></a>
+                    <a href=""><img src="img/37.jpg" alt=""></a>
                     <h5 class="tl-related"><a href="">Các Sản Phẩm Còn Lại</a></h5>
-                    <div class="time-new"><span><i class="fa fa-clock-o"></i> jul 12, 2018 </span> - <span><i class="fa fa-user-circle"></i> NHUẬN LINH</span></div>
+                    <div class="time-new"><span><i class="fa fa-clock-o"></i> November 12, 2019 </span> - <span><i class="fa fa-user-circle"></i> SHOP NHUẬN LINH</span></div>
                 </div>
                 <div class="item-slider-related">
-                    <a href=""><img src="img/img11.jpg" alt=""></a>
+                    <a href=""><img src="img/38.jpg" alt=""></a>
                     <h5 class="tl-related"><a href="">Các Sản Phẩm Còn Lại</a></h5>
-                    <div class="time-new"><span><i class="fa fa-clock-o"></i> jul 12, 2018 </span> - <span><i class="fa fa-user-circle"></i> NHUẬN LINH</span></div>
+                    <div class="time-new"><span><i class="fa fa-clock-o"></i> November 12, 2019 </span> - <span><i class="fa fa-user-circle"></i> SHOP NHUẬN LINH</span></div>
                 </div>
                 <div class="item-slider-related">
-                    <a href=""><img src="img/img15.jpg" alt=""></a>
+                    <a href=""><img src="img/39.jpg" alt=""></a>
                     <h5 class="tl-related"><a href="">Các Sản Phẩm Còn Lại</a></h5>
-                    <div class="time-new"><span><i class="fa fa-clock-o"></i> jul 12, 2018 </span> - <span><i class="fa fa-user-circle"></i> NHUẬN LINH</span></div>
+                    <div class="time-new"><span><i class="fa fa-clock-o"></i> November 12, 2019 </span> - <span><i class="fa fa-user-circle"></i> SHOP NHUẬN LINH</span></div>
                 </div>
                 <div class="item-slider-related">
-                    <a href=""><img src="img/img16.jpg" alt=""></a>
+                    <a href=""><img src="img/40.jpg" alt=""></a>
                     <h5 class="tl-related"><a href="">Các Sản Phẩm Còn Lại</a></h5>
-                    <div class="time-new"><span><i class="fa fa-clock-o"></i> jul 12, 2018 </span> - <span><i class="fa fa-user-circle"></i> NHUẬN LINH</span></div>
+                    <div class="time-new"><span><i class="fa fa-clock-o"></i> November 12, 2019 </span> - <span><i class="fa fa-user-circle"></i> SHOP NHUẬN LINH</span></div>
                 </div>
                 <div class="item-slider-related">
-                    <a href=""><img src="img/img17.jpg" alt=""></a>
+                    <a href=""><img src="img/41.jpg" alt=""></a>
                     <h5 class="tl-related"><a href="">Các Sản Phẩm Còn Lại</a></h5>
-                    <div class="time-new"><span><i class="fa fa-clock-o"></i> jul 12, 2018 </span> - <span><i class="fa fa-user-circle"></i> NHUẬN LINH</span></div>
+                    <div class="time-new"><span><i class="fa fa-clock-o"></i> November 12, 2019 </span> - <span><i class="fa fa-user-circle"></i> SHOP NHUẬN LINH</span></div>
+                </div>
+                <div class="item-slider-related">
+                    <a href=""><img src="img/42.jpg" alt=""></a>
+                    <h5 class="tl-related"><a href="">Các Sản Phẩm Còn Lại</a></h5>
+                    <div class="time-new"><span><i class="fa fa-clock-o"></i> November 12, 2019 </span> - <span><i class="fa fa-user-circle"></i> SHOP NHUẬN LINH</span></div>
+                </div>
+                <div class="item-slider-related">
+                    <a href=""><img src="img/43.jpg" alt=""></a>
+                    <h5 class="tl-related"><a href="">Các Sản Phẩm Còn Lại</a></h5>
+                    <div class="time-new"><span><i class="fa fa-clock-o"></i> November 12, 2019 </span> - <span><i class="fa fa-user-circle"></i> SHOP NHUẬN LINH</span></div>
+                </div>
+                <div class="item-slider-related">
+                    <a href=""><img src="img/45.jpg" alt=""></a>
+                    <h5 class="tl-related"><a href="">Các Sản Phẩm Còn Lại</a></h5>
+                    <div class="time-new"><span><i class="fa fa-clock-o"></i> November 12, 2019 </span> - <span><i class="fa fa-user-circle"></i> SHOP NHUẬN LINH</span></div>
+                </div>
+                <div class="item-slider-related">
+                    <a href=""><img src="img/46.jpg" alt=""></a>
+                    <h5 class="tl-related"><a href="">Các Sản Phẩm Còn Lại</a></h5>
+                    <div class="time-new"><span><i class="fa fa-clock-o"></i> November 12, 2019 </span> - <span><i class="fa fa-user-circle"></i> SHOP NHUẬN LINH</span></div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- footer -->
+    
     <div class="footer">
-        <div class="container ft-top">
-            <div class="row">
-                <div class="col-md-3">
-                    
-                    <span class="border-span"></span> -->
-                    <span class="border-span"></span>
+            <div class="container ft-top">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h3 class="title_ft">SHOP NHUẬN LINH</h3>
+                        <span class="border-span"></span>
                         <p>👏👏NGƯỜI TA THƯỜNG NÓI NGƯỜI ĐẸP VÌ LỤA<br>
                                 🌟 LÚA TỐT VÌ PHÂN<br>
                                 🌟Là con gái đẹp thôi chưa đủ <br>
